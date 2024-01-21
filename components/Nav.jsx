@@ -26,12 +26,12 @@ const Nav = () => {
       <Link href="/" className="flex flex-row flex-center gap-2">
         <Image
           src="/assets/images/logo.svg"
-          alt="Promptopia Logo"
+          alt="NeuralNexus Logo"
           width={30}
           height={30}
           className="object-contain"
         />
-        <p className="logo_text">Promptopia</p>
+        <p className="logo_text">NeuralNexus</p>
       </Link>
       <div className="sm:flex hidden">
         {session?.user ? (
