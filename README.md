@@ -17,12 +17,15 @@ Neural Nexus is a web application that allows users to create, edit, and delete 
 ## Features
 
 - **User Authentication:**
+
   - Users can log in using Google authentication provided by NextAuth.
 
 - **Prompts Management:**
+
   - Create, edit, and delete prompts.
 
 - **Home Page:**
+
   - Displays prompts from all users.
 
 - **User Profiles:**
@@ -32,28 +35,32 @@ Neural Nexus is a web application that allows users to create, edit, and delete 
 ## How to Run
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/0xOmarAdel/neural-nexus.git
    cd neural-nexus
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Set up environmental variables:
    Create a `.env` file in the root directory with the following:
+
    ```env
    GOOGLE_CLIENT_ID=your-google-client-id
    GOOGLE_CLIENT_SECRET=your-google-client-secret
-   MONGODB_URI=mongodb+srv://Heisenberg:Agron_292@cluster0.xswauoz.mongodb.net/?retryWrites=true&w=majority
+   MONGODB_URL=your-mongodb-connection-string
    NEXTAUTH_URL=http://localhost:3000
    NEXTAUTH_INTERNAL=http://localhost:3000
    NEXTAUTH_SECRET=your-secret-string
    ```
 
 4. Start the development server:
+
    ```bash
    npm run dev
    ```
